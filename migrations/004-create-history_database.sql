@@ -12,4 +12,4 @@ create table history (
     leak_detector text,
     quality_detector text
 );
-ALTER DATABASE SET TIME_ZONE = '+02:00';
+ALTER DATABASE SET created_at = '+02:00';
