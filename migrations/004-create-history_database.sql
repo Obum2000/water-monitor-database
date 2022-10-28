@@ -1,10 +1,10 @@
 create table history (
     id integer primary key AUTOINCREMENT,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     ph real,
     temperature real,
     turbidity real,
     hardness real,
-    valve_pressure real,
     day_of_week real,
     time real,
     flow_rate real,
